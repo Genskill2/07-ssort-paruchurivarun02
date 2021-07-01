@@ -23,7 +23,7 @@ void ssort(int arr[],int l){
     swap_max(arr,l,i);
   }
 for(int i=0;i<l;i++){
-printf("|%i|\t",arr[i]);
+printf("|%i|",arr[i]);
 }
 printf("\n");
 }
